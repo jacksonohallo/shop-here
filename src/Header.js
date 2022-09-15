@@ -20,7 +20,23 @@ const Header = () => {
       <div className='header__search'>
       <input type="text" className='header__searchInput' />
         <SearchIcon className='header__searchIcon'/>
-      
+  
+      </div>
+
+      <div classsName='header__nav'> 
+        <Link to='/login'className='header_link'>
+          <span>Hello Jack</span>
+          <span>Sign In</span>
+        </Link>
+
+     <Link to='/'className='header_link'>
+          <span>Return</span>
+          <span>& Order</span>
+      </Link>
+         <Link to='/'className='header_link'>
+          <span>Your </span>
+          <span>Prime</span>
+        </Link>
       </div>
           
 
