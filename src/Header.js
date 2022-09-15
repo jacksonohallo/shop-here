@@ -1,5 +1,6 @@
 import React from 'react'
 import SearchIcon from "@material-ui/icons/Search"
+import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket"
 import { Link } from 'react-router-dom'
 
 
@@ -23,20 +24,37 @@ const Header = () => {
   
       </div>
 
-      <div classsName='header__nav'> 
-        <Link to='/login'className='header_link'>
-          <span>Hello Jack</span>
-          <span>Sign In</span>
+      <div className='header__nav'>
+
+        <Link to='/login' className='header__link'>
+          <div className='header__option'>
+          <span className='header__optionLineOne'>Hello Jack</span>
+            <span className='header__optionLineTwo'>Sign In</span>
+            </div>
         </Link>
 
-     <Link to='/'className='header_link'>
-          <span>Return</span>
-          <span>& Order</span>
+        <Link to='/' className='header__link'>
+          <div className='header__option'>
+          <span className='header__optionLineOne'>Return</span>
+            <span className='header__optionLineTwo'>& Order</span>
+            </div>
       </Link>
-         <Link to='/'className='header_link'>
-          <span>Your </span>
-          <span>Prime</span>
+        <Link to='/' className='header__link'>
+          <div className='header__option'>
+          <span className='header__optionLineOne'>Your </span>
+            <span className='header__optionLineTwo'>Prime</span>
+            </div>
         </Link>
+
+        <Link to='/checkout'>
+          <div className='header__optionBasket'>
+            <ShoppingBasketIcon />
+            <span>0</span>
+            
+        </div>
+        </Link>
+
+
       </div>
           
 
