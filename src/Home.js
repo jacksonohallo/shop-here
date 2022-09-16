@@ -18,8 +18,7 @@ const Home = () => {
         price={4051.0}
         rating={3}
         image="https://images-na.ssl-images-amazon.com/images/I/417wp10uSeL.jpg"
-        />
-        
+        />  
       <Product
         id={12312}
         title="GSM Fitness Hex Dumbbell, 7.5 kgs, Pack of 2, Rubber Coatedo"
@@ -29,6 +28,47 @@ const Home = () => {
         />
 
         </div>
+        <div className="home__row">
+  <Product
+        id={12312}
+        title="GSM Fitness Hex Dumbbell, 7.5 kgs, Pack of 2, Rubber Coatedo"
+        price={4051.0}
+        rating={3}
+        image="https://images-na.ssl-images-amazon.com/images/I/417wp10uSeL.jpg"
+          />
+   <Product
+        id={12312}
+        title="GSM Fitness Hex Dumbbell, 7.5 kgs, Pack of 2, Rubber Coatedo"
+        price={4051.0}
+        rating={3}
+        image="https://images-na.ssl-images-amazon.com/images/I/417wp10uSeL.jpg"
+          />
+    <Product
+        id={12312}
+        title="GSM Fitness Hex Dumbbell, 7.5 kgs, Pack of 2, Rubber Coatedo"
+        price={4051.0}
+        rating={3}
+        image="https://images-na.ssl-images-amazon.com/images/I/417wp10uSeL.jpg"
+        />
+      </div>
+
+     <div className="home ">
+        
+  <Product
+        id={12312}
+        title="GSM Fitness Hex Dumbbell, 7.5 kgs, Pack of 2, Rubber Coatedo"
+        price={4051.0}
+        rating={3}
+        image="https://images-na.ssl-images-amazon.com/images/I/417wp10uSeL.jpg"
+        />
+
+
+    </div>
+      
+
+
+
+      
     </div>
   );
 };
