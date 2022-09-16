@@ -1,7 +1,10 @@
 import React from 'react'
 import './Product.css'
 
-const Product = ({id, title, image,price,rating}) => {
+const Product = ({ id, title, image, price, rating }) => {
+  
+  const addToBasket = () => {};
+
   return (
     <div className='product'>
       <div className='product__info'>
@@ -14,13 +17,14 @@ const Product = ({id, title, image,price,rating}) => {
         {Array(rating)
           .fill()
           .map((_) => (
-             <p>*</p>  
+             
+             <p>*</p> 
           ))}
         </div>
         
         </div>
       <img src={image} alt="" />
-      <button>Add to basket</button>
+      <button onClick={addToBasket}>Add to basket</button>
       </div>
   )}
 
