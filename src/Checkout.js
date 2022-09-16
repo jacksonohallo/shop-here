@@ -1,6 +1,7 @@
 import React from 'react'
 import { useStateValue } from './StateProvider';
 import './Checkout.css';
+import CurrencyFormat from 'react-currency-format'
 import CheckoutProduct from './CheckoutProduct';
 import './CheckoutProduct.css';
 import Subtotal from './Subtotal';
