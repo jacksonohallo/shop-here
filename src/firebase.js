@@ -1,4 +1,6 @@
-import firebase from 'firebase'
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 const firebaseApp = firebase.initializeApp({
 
@@ -9,6 +11,7 @@ const firebaseApp = firebase.initializeApp({
   messagingSenderId: "911780913595",
   appId: "1:911780913595:web:21b340536adea29089649e",
   measurementId: "G-E4CQ3V4XFB"
+
 })
 
 
