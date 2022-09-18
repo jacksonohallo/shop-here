@@ -36,9 +36,6 @@ function App() {
       unsubscribe();
     };
   }, []);
-
-  console.log('user is>>>',user);
-
   return (
     <Router>
       <div className="App">

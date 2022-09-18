@@ -16,6 +16,7 @@ const Login = () => {
 
     auth.signInWithEmailAndPassword(email, password)
 
+
       .then((auth) => {
         history.push('/')
   
